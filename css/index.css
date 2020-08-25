@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url(../img/background.gif);
+}
+
+.bg-saolei {
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    border-top: 3px solid rgba(235, 168, 135, .2);
+    border-bottom: 3px solid rgba(235, 168, 135, .2);
+    /*border-left: 3px solid rgba(88, 117, 106, .2);*/
+    /*border-right: 3px solid rgba(88, 117, 106, .2);*/
+    background: url(../img/background.gif) no-repeat center !important;
+    position: relative;
+}
+.bg-saolei-p {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.bg-saolei .bg-saolei-p p {
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: aqua 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    background: -webkit-linear-gradient(left, #239685, #2FBEAA) !important;
+    background: linear-gradient(left, #239685, #2FBEAA) !important;
+}
+
+.bg-saolei .bg-saolei-p p:hover {
+    color: chocolate;
+    background: -webkit-linear-gradient(left, #a39685, #2FBEAA) !important;
+    box-shadow: aqua 1px 1px;
+}
+
+.spans {
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: -150px;
+}

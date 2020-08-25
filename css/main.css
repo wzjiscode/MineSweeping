@@ -1,0 +1,118 @@
+body div .bg-saolei .saolei-nav {
+    padding: 10px 30px;
+    height: 10%;
+    width: auto;
+    /*border: chocolate 1px solid;*/
+}
+
+#bg-saolei-mian {
+    position: absolute;
+    display: none;
+    width: 300px;
+    height: 300px;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+    top: 100px;
+    left: 100px;
+    background: #1D303D;
+}
+
+.saolei-nav-content-clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body div .bg-saolei .saolei-nav .saolei-nav-content {
+    width: auto;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+body div .bg-saolei .saolei-nav .saolei-nav-content .saolei-nav-radius {
+    /*float: left;*/
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: thin solid #a39685;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+body div .bg-saolei .saolei-nav .saolei-nav-content p {
+    display: inline-block;
+    /*float: left;*/
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    background: #3562A5;
+    vertical-align: middle;
+    border-radius: 3px;
+    box-shadow: 0 0 .1em 0.1em rgba(0,255,255, .9),
+    0 0 .1em .1em rgba(255,233,255, .9);
+    margin-left: 15px;
+}
+
+body div .bg-saolei .saolei-nav .saolei-nav-content .saolei-nav-end{
+    display: inline-block;
+    width: 85px;
+    height: 25px;
+    line-height: 25px;
+    background: #227658;
+    vertical-align: middle;
+    border-radius: 3px;
+    box-shadow: 4px 4px 8px #000;
+}
+
+body div .bg-saolei .saolei-nav .saolei-nav-content .saolei-nav-end:hover {
+    box-shadow: 4px 4px 8px #003333;
+}
+
+.nav-left{
+    margin-left: 50px;
+}
+
+body div .bg-saolei .saolei-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    width: 70%;
+    height: 70%;
+    background: #a39685 !important;
+    border: 3px black solid;
+    text-align: center;
+}
+
+.minesweep {
+    width: 11.11%;
+    height: 11.11%;
+    line-height: 38px;
+    color: transparent;
+    cursor: pointer;
+    background: #8FA49C;
+    box-sizing: border-box;
+    border-top: 3px solid #BDCEC7;
+    border-bottom: 3px solid #58756A;
+    border-left: 3px solid #BDCEC7;
+    border-right: 3px solid #58756A;
+    border-collapse: collapse;
+}
+
+.minesweep:hover {
+    background-color: #2FBEAA;
+}
+
+.iconfonts{
+    color: red;
+    background: url(../img/hongqi.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+}
